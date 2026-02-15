@@ -1,3 +1,5 @@
+from traceback import print_tb
+
 from plyer import notification
 import time
 
@@ -9,16 +11,16 @@ def show_notification(step):
     )
 
 
+def ceyvo():
+    pass
+
 def reverse(text):
     return text[::-1]  #usage:  [start:stop:step]
 
-def toyvo():
-    pass
 
 if __name__ == "__main__":
-    print("Hello World")
     print(reverse("reverse"))
 
-
+    print("Hello")
 
 
