@@ -14,7 +14,7 @@ def reverse(text):
 
 
 if __name__ == "__main__":
-    print(reverse("12345678"))
+    print(reverse("reverse"))
 
 
 
